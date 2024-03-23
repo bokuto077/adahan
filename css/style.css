@@ -1,0 +1,25 @@
+.container {
+    width: auto;
+    padding-left: 124px;
+    padding-right: 124px;
+}
+  .block {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    border: none;
+
+  }
+  #block1 {
+    display: block; /* Показываем первый блок по умолчанию */
+  }
+@media(max-width: 360px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .block {
+        width: 360px;
+    }
+}

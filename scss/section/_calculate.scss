@@ -1,0 +1,98 @@
+.calculate {
+    background: rgb(240, 238, 238);
+    &__content {
+        padding-top: 70px;
+    }
+    &__card {
+        display: flex;
+        gap: 130px;
+    }
+    &__request {
+        display: flex;
+        align-items: center;
+    }
+    &__input {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom:1px solid rgb(153, 153, 153);
+        &-text{
+            color: rgb(25, 25, 25);
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+    &__text {
+        color: rgb(25, 25, 25);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__title {
+        color: rgb(25, 25, 25);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__btn{
+        box-sizing: border-box;
+        border: none;
+        background-color: transparent;
+        background: rgb(204, 204, 204);
+        color: rgb(255, 255, 255);
+        padding: 17px 23px;
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__swiper-button {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    &__swiper {
+        background: rgb(204, 204, 204);
+        color: rgb(255, 255, 255);
+        padding: 17px 20px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+        border: none;
+        margin-bottom: 89px;
+        margin-top: 76px;
+        &-text {
+            color: rgb(204, 204, 204);
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+    }
+}
+@media (max-width: 360px) {
+    .calculate {
+        &__title {
+            font-size: 30px;
+        }
+        &__card {
+            flex-direction: column;
+            row-gap: 50px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.apartament {
+    padding-top: 80px;
+    &__title {
+        color: rgb(25, 25, 25);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__text {
+        color: rgb(153, 153, 153);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding-bottom: 48px;
+    }
+    &__link {
+        color: rgb(240, 90, 38);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+        display: flex;
+        padding-top: 56px;
+        padding-bottom: 81px;
+    }
+}
+@media (max-width: 360px) {
+    .apartament {
+        &__text {
+            width: 328px;
+        }
+        &__link {
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+.step {
+    margin-bottom: 72px;
+    margin-top: 80px;
+    &__title {
+        color: rgb(25, 25, 25);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__ofer {
+        display: flex;
+        justify-content: left;
+        gap: 32px;
+        padding-top: 32px;
+    }
+    &__btn {
+        background: rgb(240, 238, 238);
+        border: none;
+        padding: 17px 25px;
+        color: rgb(25, 25, 25);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    &__card {
+        padding-top: 106px;
+        display: flex;
+        justify-content: start;
+        gap: 102px;
+        row-gap: 20px;
+    }
+    &__description {
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__how {
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    &__example {
+        display: flex;
+        padding-top: 40px;
+        color: rgb(240, 90, 38);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+}
+@media (max-width: 360px) {
+    .step {
+        &__btn {
+            display: flex;
+            flex-direction: column;
+            width: 274px;
+        }
+        &__card {
+            display: flex;
+            flex-direction: column;
+        }
+        &__how {
+            width: 306px;
+        }
+        &__example {
+            font-size: 19px;
+            width: 327px;
+        }
+    }
+}

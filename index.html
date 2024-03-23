@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Котов</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__their"> 
+                <button class="ham">
+                    <span class="menuIcon material-icons">
+                      menu
+                    </span>
+                    <span class="xIcon material-icons">
+                      close
+                    </span>
+                  </button>
+                  <div class="menu">
+                    <div class="menu__content">
+                    <nav class="menu__header-link">
+                    <a href="#" class="menuLink">Главная</a>
+                    <a href="#" class="menuLink">О нас</a>
+                    <a href="#" class="menuLink">Наши проекты</a>
+                    <a href="#" class="menuLink">Цены на ремонт</a>
+                    <a href="#" class="menuLink">Отзывы клиентов</a>
+                    <a href="#" class="menuLink">Расчет стоимости</a>
+                    <a href="#" class="menuLink">Контакты</a>
+                    </nav>
+                    <div class="menu__social">
+                        <p class="menuLink-text">
+                            Задать вопрос
+                        </p>
+                        <nav class="menu__icon">
+                            <a href="#" class="menu__icon-social"><img src="./images/insta-orange.svg" alt="insta-icon-orange"></a>
+                            <a href="#" class="menu__icon-social"><img src="./images/vk-orange.svg" alt="vk-icon-orange"></a>
+                            <a href="#" class="menu__icon-social"><img src="./images/facebook-orange.svg" alt="facebook-icon-orange"></a>
+                            <a href="#" class="menu__icon-social"><img src="./images/ok-orange.svg" alt="ok-icon-orange"></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+                    <img src="./images/LOGO.png" alt="logo" class="header__img">
+                </div>
+                <div class="header__about">
+                    <img src="./images/call.svg" alt="call" class="header__call">
+                    <p class="header__number">+7 927 705-15-86</p>
+                    <button class="header__button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="essence">
+        <div class="container">
+            <div class="essence__content">
+                <div class="essence__what">
+                <h1 class="essence__title">
+                    Капитальный ремонт квартир<span class="essence__title-span">.</span> <br>Без задержек и превышения сметы
+                </h1>
+                <p class="essence__cost">Под ключ от 5500 ₽ за 1 м²</p>
+                </div>
+            <div class="essence__calculate">
+                <a href="#" class="essence__btn">✓ Рассчитать стоимость</a>
+            </div>
+        </div>
+    </div>
+    <img src="/images/title.png" alt="first-img" class="essence__img">
+    </section>
+    <section class="step">
+        <div class="container">
+            <h2 class="step__title">
+                Принципиальный подход
+            </h2>
+            <div class="step__content">
+
+                <button id="button1" onclick="showBlock('block1')" class="step__btn">01 Полностью под ключ</button>
+                <button id="button2" onclick="showBlock('block2')" class="step__btn">02 Настоящая гарантия</button>
+                <button id="button3" onclick="showBlock('block3')" class="step__btn">03 Прозачные цены</button>
+              
+                <div id="block1" class="block"><div class="step__card">
+                    <div class="step__text">
+                        <h3 class="step__description">Всё включено</h3>
+                        <h4 class="step__how">В стоимость ремонта входит всё: работы, материалы, организация, документация, управление, контроль и гарантия.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Без вашего участия</h3>
+                        <h4 class="step__how">Мы беспокоим хозяев лишь раз и по приятному поводу: сообщаем, что можно въезжать в обновлённую квартиру.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Постоянная отчетность</h3>
+                        <h4 class="step__how">Присылаем ежедневные фотоотчеты на e-mail, Viber, Whatsapp или любые другие соцсети.</h4>
+                    </div>
+                </div>
+                <a href="#" class="step__example">Пример технического дизайна ↓</a></div>
+                <div id="block2" class="block"><div class="step__card">
+                    <div class="step__text">
+                        <h3 class="step__description">Начинаем без предоплаты</h3>
+                        <h4 class="step__how">Оплата по факту выполненных работ. За задержки по срокам платим мы — всё прописано в договоре.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Гарантия за нас счет</h3>
+                        <h4 class="step__how">У нас настоящая гарантия 10 лет на сантехнику и электрику и  2 года на отделочные материалы.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Тройной контроль </h3>
+                        <h4 class="step__how">Каждая выполненная работа проверяется: прорабом, менеджером и главным инженером.</h4>
+                    </div>
+                </div>
+                <a href="#" class="step__example">Скачать образец договора ↓</a></div>
+                <div id="block3" class="block"><div class="step__card">
+                    <div class="step__text">
+                        <h3 class="step__description">Цена известна заранее</h3>
+                        <h4 class="step__how">Стоимость работ от 5 500 ₽. Цена фиксируется после согласования проекта и демонтажа и не меняется в процессе работ.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Бесплатный выезд на замер</h3>
+                        <h4 class="step__how">Замерщик приедет в удобное для вас время. Чтобы вызвать замерщика позвоните нам или оставьте заявку на нашем сайте.</h4>
+                    </div>
+                    <div class="step__text">
+                        <h3 class="step__description">Бесплатная уборка</h3>
+                        <h4 class="step__how">Уборка мусора и наведение порядка после окончания ремонтных работ нашими партнерами из клининг агентства.</h4>
+                    </div>
+                </div>
+                <a href="#" class="step__example">Скачать прайс лист ↓</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="project">
+        <div class="container">
+            <div class="project__content">
+                <div class="project__first">
+                <h2 class="project__title">
+                    Квартира будет выглядеть как в проекте
+                </h2>
+                <p class="project__text">
+                    Кликайте по картике, чтобы листать фото проекта. Стрелки переключат проект. 
+                </p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./images/home.png" alt="home"></div>
+                  <div class="swiper-slide"><img src="./images/home.png" alt="home"></div>
+                  <div class="swiper-slide"><img src="./images/home.png" alt="home"></div>
+                  <div class="swiper-slide"><img src="./images/home.png" alt="home"></div>
+                  <div class="swiper-slide"><img src="./images/home.png" alt="home"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="project__descrtiption">
+                <p class="project__specification">ЖК «Рассказово» — трехкомнатная квартира в французском стиле: серые стены, тёмный паркет, классические двери, высокий белый плинтус.</p>
+                <ul class="project__cost">
+                    <li class="project__cost-li">площадь <br><span class="project__cost-li-span">
+                        67 м²</span></li>
+                    <li class="project__cost-li">срок ремонта <br><span class="project__cost-li-span">
+                        3 месяца</span></li>
+                    <li class="project__cost-li">на материалы <br><span class="project__cost-li-span">
+                        2 400 000 ₽</span></li>
+                    <li class="project__cost-li">за работу<br><span class="project__cost-li-span">
+                        1 250 000 ₽</span></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+    </section>
+    <section class="amount">
+        <div class="container">
+            <div class="amount__content">
+                <h2 class="amount__title">Скидка за предоплату и рассрочка без банка</h2>
+                <div class="amount__cost">
+                    <p class="amount__discount">При оплате всей суммы сразу вы получите скидку от всей суммы сметы. <br> <span class="amount__discount-span">3%</span> </p>
+                    <p class="amount__discount">Мы можем разбить оплату за работу на ежемесячные платежи. Комиссию за рассрочку мы не берём. <br> <span class="amount__discount-span">до 6 месяцев</span></p>
+                </div>
+                <a href="#" class="amount__why">Почему «Котов» не работает с банками?</a>
+                <div class="amount__cards">
+                    <div class="amount__card">
+                        <img src="/images/img-1.jpg" alt="img-2">
+                        <div class="amount__description">
+                            <h3 class="amount__sub-title">Косметический</h3>
+                            <h3 class="amount__sub-title">от 5500 ₽ / м²</h3>
+                        </div>
+                        <p class="amount__text">Идеально подойдет тем, кто хочет освежить внешний вид квартиры без внесения серьезных изменений в инженерные системы и смены планировки.</p>
+                        <a href="#" class="amount__link">Рассчитать стоимость</a>
+                    </div>
+                    <div class="amount__card">
+                        <img src="/images/img-2.jpg" alt="img-2">
+                        <div class="amount__description">
+                            <h3 class="amount__sub-title">Капитальный</h3>
+                            <h3 class="amount__sub-title">от 7500 ₽ / м²</h3>
+                        </div>
+                        <p class="amount__text">Идеально подойдет тем, кто хочет освежить внешний вид квартиры без внесения серьезных изменений в инженерные системы и смены планировки.</p>
+                        <a href="#" class="amount__link">Рассчитать стоимость</a>
+                    </div>
+                    <div class="amount__card">
+                        <img src="/images/img-3.jpg" alt="img-3">
+                        <div class="amount__description">
+                            <h3 class="amount__sub-title">Евроремонт</h3>
+                            <h3 class="amount__sub-title">от 11000 ₽ / м²</h3>
+                        </div>
+                        <p class="amount__text">Идеально подойдет тем, кто хочет освежить внешний вид квартиры без внесения серьезных изменений в инженерные системы и смены планировки.</p>
+                        <a href="#" class="amount__link">Рассчитать стоимость</a>
+                    </div>
+                    <div class="amount__card">
+                        <img src="/images/img-4.jpg" alt="img-4">
+                        <div class="amount__description">
+                            <h3 class="amount__sub-title">Дизайнерский</h3>
+                            <h3 class="amount__sub-title">от 17000 ₽ / м²</h3>
+                        </div>
+                        <p class="amount__text">Идеально подойдет тем, кто хочет освежить внешний вид квартиры без внесения серьезных изменений в инженерные системы и смены планировки.</p>
+                        <a href="#" class="amount__link">Рассчитать стоимость</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="because">
+        <div class="container">
+            <h2 class="because__title">
+                Почему у конкуретнов дешевле в два раза?
+            </h2>
+        </div>
+    </section>
+    <section class="apartament">
+        <div class="container">
+            <div class="apartament__content">
+                <h2 class="apartament__title">Клиенты и их квартиры</h2>
+                <p class="apartament__text">Несколько историй от людей, которые доверили нам своё жильё</p>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/jrqEbkU4Wj8?si=3U87VMWoigDc4C0j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                      <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/HLiLNZpVWpg?si=KS0N5tx9bKC3vrKT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                      <div class="swiper-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/MDZMJzAgGLc?si=eDve1DlXXiXgZG9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    </div>
+                  </div>
+                <a href="#" class="apartament__link">Больше отзывов в нашем инстаграме →</a>
+            </div>
+        </div>
+    </section>
+    <section class="calculate">
+        <div class="container">
+            <div class="calculate__content">
+                <h2 class="calculate__title">
+                    Рассчитайте стоимость ремонта
+                </h2>
+                <div class="calculate__card">
+                <div class="calculate__meter">
+                    <p class="calculate__text">
+                        Площадь квартиры
+                    </p>
+                    <div class="calculate__request">
+                        <input type="number" class="calculate__input"> <p class="calculate__input-text">м²</p>
+                    </div>
+                </div>
+                <div class="calculate__room">
+                    <p class="calculate__text">Команты студии</p>
+                    <div class="calculate__number">
+                    <button class="calculate__btn">1</button>
+                    <button class="calculate__btn">2</button>
+                    <button class="calculate__btn">3</button>
+                    <button class="calculate__btn">4</button>
+                    <button class="calculate__btn">5</button>
+                </div>
+                </div>
+                <div class="calculate__type">
+                    <p class="calculate__text">Тип помещения</p>
+                    <div class="calculate__type-btn">
+                         <button class="calculate__btn">Новостройка</button>
+                         <button class="calculate__btn">Вторичка</button>
+                    </div>
+                </div>
+            </div>
+            <div class="calculate__swiper-button">
+                <button class="calculate__swiper">Назад</button>
+                <button class="calculate__swiper">Далее</button>
+                <p class="calculate__swiper-text">к шагу 2 из 4</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__invite">
+                <p class="footer__text">
+                    На связи ежедневно c 8:00 до 20:00
+                </p>
+                <button class="footer__btn">Пригласить сметичика</button>
+            </div>
+                <div class="footer__about">
+                    <h2 class="footer__number">+7 (495) 150-90-82</h2>
+                    <a href="#" class="footer__location">г. Зеленоград, ул. Генерала Алексеева, дом 42, офис 214</a>
+                    <p class="footer__email">По любым вопросам <a href="#" class="footer__email-link"><br class="footer__br">kotov-remont@yandex.ru</a></p>
+                </div>
+                <div class="footer__group">
+                    <a href="#"><img src="./images/insta.png" alt="instagram"></a>
+                    <a href="#"><img src="./images/vk.png" alt="vk"></a>
+                    <a href="#"><img src="./images/faceboor.png" alt="facebook"></a>
+                    <a href="#"><img src="./images/ok.png" alt="ok"></a>
+                </div>
+                <div class="footer__anchor">
+                    <a href="#" class="footer__anchor-link">Главная</a>
+                    <a href="#" class="footer__anchor-link">О нас</a>
+                    <a href="#" class="footer__anchor-link">Наши проекты</a>
+                    <a href="#" class="footer__anchor-link">Цены на ремонт</a>
+                    <a href="#" class="footer__anchor-link">Отзывы клиентов</a>
+                    <a href="#" class="footer__anchor-link">Расчет стоимости </a>
+                    <a href="#" class="footer__anchor-link">Контакты </a>
+                </div>
+                <hr class="footer__hr">
+                <div class="footer__bottom">
+                    <div class="footer__last">
+                        <img src="./images/Group.svg" alt="logo">
+                        <p class="footer__text">Ремонт без задержек и переплат в Москве и МО</p>
+                    </div>
+                    <div class="footer__first">
+                        <p class="footer__text">2013 — 2019 © Котов </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
